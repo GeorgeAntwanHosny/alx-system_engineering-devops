@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a
+ls | grep -E '^[0-9]+$'
